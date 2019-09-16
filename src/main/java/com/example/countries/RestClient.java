@@ -45,11 +45,11 @@ public class RestClient {
             BufferedReader br = new BufferedReader(new InputStreamReader((response.getEntity().getContent())));
             String input;
             StringBuffer sresponse = new StringBuffer();
-            System.out.println("============Output:============");
+            //System.out.println("============Output:============");
 
             // Simply iterate through JSON response and show on console.
             while ((input = br.readLine()) != null) {
-                System.out.println(input);
+                //System.out.println(input);
                 sresponse.append(input);
 
             }
@@ -59,15 +59,15 @@ public class RestClient {
             JSONArray myResponse = new JSONArray(sresponse.toString());
             for (int i = 0; i < myResponse.length(); i++) {
                 JSONObject country = myResponse.getJSONObject(i);
-                System.out.println("country " + country.toString());
-                JSONArray currencies = country.getJSONArray("currencies");
-                System.out.println("currencies " + currencies.toString());
-                JSONObject currency = currencies.getJSONObject(0);
-                System.out.println("currency " + currency.toString());
+                //System.out.println("country " + country.toString());
+                //JSONArray currencies = country.getJSONArray("currencies");
+                //System.out.println("currencies " + currencies.toString());
+                //JSONObject currency = currencies.getJSONObject(0);
+                //System.out.println("currency " + currency.toString());
                 String countryName = country.getString("name");
                 if (countryName != null) {
                     String code = countryName.substring(0, 2).toUpperCase();
-                    System.out.println("code " + code);
+                    //System.out.println("code " + code);
                     String capital = country.getString("capital");
                     String name = countryName;
                     Country newCountry = new Country(name, capital);
@@ -108,4 +108,4 @@ public class RestClient {
         }
         return new String(code + " does not exist");
     }
-}
+}}
