@@ -13,7 +13,7 @@ Apache Maven -3.6.2
 
 #Explanation
 
-This assignment is getting the country codes and capital of the country using first two letters.
+This assignment is getting the country codes and capital of the country using first two letters. Using the requirements for connecting with RESTful API.
 
 
 
