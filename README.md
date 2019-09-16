@@ -5,11 +5,29 @@
 
 IntelliJ- 2019 version
 
+IntelliJ IDEA (hereafter referred as IntelliJ) is one of the most powerful and popular Integrated Development Environments (IDE) for Java
+
 Microservices with SpringBoot
+
+Spring Boot makes it easy to create stand-alone, production-grade Spring based Applications.
+
+Core technologies: dependency injection, events, resources, i18n, validation, data binding, type conversion, SpEL, AOP.
+
+Testing: mock objects, TestContext framework, Spring MVC Test, WebTestClient.
+
+Data Access: transactions, DAO support, JDBC, ORM, Marshalling XML.
+
+Spring MVC and Spring WebFlux web frameworks.
+
+Integration: remoting, JMS, JCA, JMX, email, tasks, scheduling, cache.
 
 JDK 1.8 -Java version 8
 
 Apache Maven -3.6.2
+
+Maven is a build automation tool used primarily for Java projects.
+
+Based on the concept of a project object model (POM), Maven can manage a project's build, reporting and documentation from a central piece of information.
 
 #Explanation
 
@@ -35,4 +53,8 @@ Unit Testing:
 Mockito is a popular mock framework which can be used in conjunction with JUnit. Mockito allows you to create and configure mock objects. Using Mockito simplifies the development of tests for classes with external dependencies significantly.
 
 Testing is also developed to get the output successful.
+
+
+By using Spring Boot, the work made little bit easier for developing Java Projects.
+
 
