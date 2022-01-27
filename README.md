@@ -3,7 +3,7 @@
 
 #Requirements
 
-IntelliJ- 2019 version
+IntelliJ- 2021 version
 
 IntelliJ IDEA (hereafter referred as IntelliJ) is one of the most powerful and popular Integrated Development Environments (IDE) for Java
 
